@@ -20,12 +20,9 @@ pip install opencv-python opencv-python-headless mtcnn numpy matplotlib
 
 1. Clone this repository:
 
-git clone https://github.com/yourusername/background-blur-face-preservation.git
-cd background-blur-face-preservation
+2.Place your images in the images directory that you want to process.
 
-1.Place your images in the images directory that you want to process.
-
-2.Modify the image_paths list in the Python script to include the paths to your input images:
+3.Modify the image_paths list in the Python script to include the paths to your input images:
 image_paths = [
     'images/image1.jpg',
     'images/image2.jpg',
